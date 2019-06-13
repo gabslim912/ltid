@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Sénégal : la recette du succès en matière de TIC et des nouvelles technologies'
 date: 2019-02-11 00:00:00 +0000
 auteur: La redaction

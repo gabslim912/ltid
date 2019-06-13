@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Cybercriminalité au Sénégal: les victimes peuvent saisir la Gendarmerie'
 date: 2019-02-11 12:08:00 +0000
 auteur: La rédaction

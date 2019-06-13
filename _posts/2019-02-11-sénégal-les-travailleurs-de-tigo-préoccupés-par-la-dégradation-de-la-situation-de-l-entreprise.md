@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Sénégal : les travailleurs de TIGO préoccupés par la « dégradation » de la
   situation de l’entreprise'
 date: 2019-02-11 00:00:00 +0000

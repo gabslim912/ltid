@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Contrôle des flux téléphoniques en RD Congo : que reprochent les opérateurs
   à l’Etat ?'
 date: 2019-02-08 00:00:00 +0000

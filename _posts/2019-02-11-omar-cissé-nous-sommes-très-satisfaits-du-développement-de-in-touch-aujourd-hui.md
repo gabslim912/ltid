@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Omar Cissé: « Nous sommes très satisfaits du développement de IN TOUCH aujourd’hui
   »'
 date: 2019-02-11 00:00:00 +0000
