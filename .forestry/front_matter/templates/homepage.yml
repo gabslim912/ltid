@@ -4,110 +4,110 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: permalink
   label: permalink
+  hidden: true
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: field_group_list
   name: sliders
-  label: sliders
   fields:
-  - type: text
-    name: title_medium
-    label: title_medium
-  - type: text
-    name: title_large
-    label: title_large
-  - type: text
-    name: link_1
-    label: link_1
-  - type: text
-    name: link_2
-    label: link_2
   - type: file
     name: image
-    label: image
-- type: file
-  name: image_1
-  label: image_1
+    label: Image
+  - type: text
+    name: title_medium
+    label: Titre Moyen
+  - type: text
+    name: title_large
+    label: Titre Large
+  - type: text
+    name: link_1
+    label: Premier lien
+  - type: text
+    name: link_2
+    label: Second lien
+  label: Sliders
 - type: text
   name: title_1
-  label: title_1
+  label: Seconde section - Titre 1
 - type: text
   name: title_2
-  label: title_2
+  label: Seconde section - Titre 2
 - type: text
   name: subtitle
-  label: subtitle
+  label: Seconde section - Sous-titre
 - type: text
   name: description
-  label: description
+  label: Seconde section - Description
 - type: text
   name: first_button_title
-  label: first_button_title
+  label: Seconde section - Titre button
 - type: text
   name: first_button_link
-  label: first_button_link
+  label: Seconde section - Lien button
 - type: file
   name: video_thumb1
-  label: video_thumb1
+  label: Seconde section - Image arrière-plan video
 - type: text
   name: video_link_1
-  label: video_link_1
+  label: Seconde section - Lien Vidéo
 - type: text
   name: programme_section_title
-  label: programme_section_title
+  label: Section Programme - Titre
 - type: text
   name: programme_section_subtitle
-  label: programme_section_subtitle
+  label: Section Programme - Sous-titre
 - type: text
   name: programme_button_title
-  label: programme_button_title
+  label: Section Programme - Titre button
 - type: text
   name: programme_button_link
-  label: programme_button_link
+  label: Section Programme - Lien button
 - type: file
   name: parallax1
-  label: parallax1
+  label: Parallax 1 - Image
 - type: text
   name: parallax1_title
-  label: parallax1_title
+  label: Parallax 1 - Titre
 - type: text
   name: parallax1_subtitle
-  label: parallax1_subtitle
+  label: Parallax 1 - Sous-titre
 - type: text
   name: parallax1_button_title
-  label: parallax1_button_title
+  label: Parallax 1 - Titre Button
 - type: text
   name: parallax1_button_link
-  label: parallax1_button_link
+  label: Parallax 1 - Lien Button
 - type: text
   name: video_link_2
-  label: video_link_2
+  label: Parallax 1 - Lien Vidéo
 - type: file
   name: parallax2
-  label: parallax2
+  label: Parallax 2 - Image
 - type: text
   name: parallax2_title
-  label: parallax2_title
+  label: Parallax 2 - Titre
 - type: text
   name: parallax2_subtitle
-  label: parallax2_subtitle
+  label: Parallax 2 - Sous-titre
 - type: text
   name: parallax2_button_title
-  label: parallax2_button_title
+  label: Parallax 2 - Titre Button
 - type: text
   name: parallax2_button_link
-  label: parallax2_button_link
+  label: Parallax 2 - Lien Button
 - type: text
   name: blog_section_title
-  label: blog_section_title
+  label: Section Blog - Titre
 - type: text
   name: blog_section_subtitle
-  label: blog_section_subtitle
+  label: Section Blog - Sous-titre
