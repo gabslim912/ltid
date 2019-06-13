@@ -10,12 +10,17 @@ fields:
 - type: text
   name: title
   label: Titre
+  default: Nom du programme
 - type: textarea
   name: description
   label: Description
+  default: |2-
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel dolor interdum, tristique tortor at, congue augue. Morbi ut sapien porta, ullamcorper tellus et, lobortis ligula. Ut consequat est sit amet volutpat venenatis. Pellentesque neque felis, tempor id sapien et, tristique mattis mi. Cras blandit ante at consectetur aliquet. Nam sapien orci, dictum ut erat ac, maximus faucibus leo. Ut pellentesque at ex a posuere. Pellentesque diam erat, fringilla ac accumsan quis, ornare non nisi. Praesent sed pretium metus, et vehicula leo. Mauris ut vulputate leo, pharetra porttitor mi. Nunc tempus finibus massa, eget ultricies odio interdum eget
 - type: file
   name: image
   label: Image
+  default: "/uploads/courses-details.jpg"
 - name: matieres_desservies
   type: field_group_list
   fields:
@@ -24,6 +29,7 @@ fields:
     config:
       required: false
     label: Titre
+    default: Nom de la matière
   config:
     min: 
     max: 
@@ -37,11 +43,13 @@ fields:
     config:
       required: false
     label: Titre
+    default: Nom du diplome
   - name: description
     type: text
     config:
       required: false
     label: Description
+    default: Bac+(n)
   config:
     min: 
     max: 
@@ -55,17 +63,19 @@ fields:
     config:
       maxSize: 250
     label: image
+    default: "/uploads/7.png"
   - name: nom
     type: text
     config:
       required: false
     label: Nom
+    default: Nom du professeur
   - name: qualification
     type: text
     config:
       required: false
     label: Qualification
-    default: Qualification
+    default: Qualification du professeur
   - name: description
     type: textarea
     default: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel dolor
