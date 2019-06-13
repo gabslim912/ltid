@@ -2,18 +2,88 @@
 label: programmes
 hide_body: false
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: textarea
   name: description
-  label: description
-- type: text
-  name: diplomes
-  label: diplomes
+  label: Description
 - type: file
   name: image
-  label: image
+  label: Image
+- name: matieres_desservies
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titre
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Matières desservies
+- name: diplomes_desservies
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titre
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Diplomes desservies
+- name: professeurs
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  - name: nom
+    type: text
+    config:
+      required: false
+    label: Nom
+  - name: qualification
+    type: text
+    config:
+      required: false
+    label: Qualification
+    default: Qualification
+  - name: description
+    type: textarea
+    default: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel dolor
+      interdum, tristique tortor at, congue augue. Morbi ut sapien porta, ullamcorper
+      tellus et, lobortis ligula. Ut consequat est sit amet volutpat venenatis. Pellentesque
+      neque felis, tempor id sapien et, tristique mattis mi. Cras blandit ante at
+      consectetur aliquet.
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Professeurs
 pages:
 - _programmes/communication-digitale.md
 - _programmes/audiovisuel-numérique.md
