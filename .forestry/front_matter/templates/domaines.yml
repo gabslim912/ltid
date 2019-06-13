@@ -1,0 +1,17 @@
+---
+label: domaines
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: title
+  name: title
+- type: file
+  name: image
+  label: image
+pages:
+- _domaines/informatique.md
+- _domaines/infographie.md
+- _domaines/audiovisuel.md
+- _domaines/cinématographie.md
+- _domaines/community-management.md
