@@ -1,0 +1,113 @@
+---
+label: Homepage
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: permalink
+  label: permalink
+- type: datetime
+  name: date
+  label: date
+- type: field_group_list
+  name: sliders
+  label: sliders
+  fields:
+  - type: text
+    name: title_medium
+    label: title_medium
+  - type: text
+    name: title_large
+    label: title_large
+  - type: text
+    name: link_1
+    label: link_1
+  - type: text
+    name: link_2
+    label: link_2
+  - type: file
+    name: image
+    label: image
+- type: file
+  name: image_1
+  label: image_1
+- type: text
+  name: title_1
+  label: title_1
+- type: text
+  name: title_2
+  label: title_2
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: description
+  label: description
+- type: text
+  name: first_button_title
+  label: first_button_title
+- type: text
+  name: first_button_link
+  label: first_button_link
+- type: file
+  name: video_thumb1
+  label: video_thumb1
+- type: text
+  name: video_link_1
+  label: video_link_1
+- type: text
+  name: programme_section_title
+  label: programme_section_title
+- type: text
+  name: programme_section_subtitle
+  label: programme_section_subtitle
+- type: text
+  name: programme_button_title
+  label: programme_button_title
+- type: text
+  name: programme_button_link
+  label: programme_button_link
+- type: file
+  name: parallax1
+  label: parallax1
+- type: text
+  name: parallax1_title
+  label: parallax1_title
+- type: text
+  name: parallax1_subtitle
+  label: parallax1_subtitle
+- type: text
+  name: parallax1_button_title
+  label: parallax1_button_title
+- type: text
+  name: parallax1_button_link
+  label: parallax1_button_link
+- type: text
+  name: video_link_2
+  label: video_link_2
+- type: file
+  name: parallax2
+  label: parallax2
+- type: text
+  name: parallax2_title
+  label: parallax2_title
+- type: text
+  name: parallax2_subtitle
+  label: parallax2_subtitle
+- type: text
+  name: parallax2_button_title
+  label: parallax2_button_title
+- type: text
+  name: parallax2_button_link
+  label: parallax2_button_link
+- type: text
+  name: blog_section_title
+  label: blog_section_title
+- type: text
+  name: blog_section_subtitle
+  label: blog_section_subtitle
