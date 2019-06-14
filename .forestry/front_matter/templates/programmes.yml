@@ -95,6 +95,7 @@ fields:
     labelField: 
   label: Professeurs
 pages:
+- _programmes/mécanique-générale.md
 - _programmes/électricité.md
 - _programmes/communication-digitale.md
 - _programmes/audiovisuel-numérique.md
