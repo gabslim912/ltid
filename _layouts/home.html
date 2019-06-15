@@ -1,10 +1,8 @@
 ---
 layout: default
 ---
-
-
 <!-- Hero Slider -->
-<div class="hero-slider2 owl-carousel owl-theme owl-theme-1 rs">
+<div class="hero-slider2 owl-carousel owl-theme owl-theme-1 rs" style="">
 {% for slider in page.sliders %}
 <div class="hero-slider-item" style="background-image: url({{ slider.image }});">
     <div class="d-table">
@@ -64,7 +62,7 @@ layout: default
 </section>
 <!-- End About Us -->
 
-<!-- Popular Categories -->
+<!-- Popular Categories --
 <div class="ptb-100"> 
     <div class="container">
         <div class="categorie-slider owl-carousel owl-theme"> 
@@ -100,7 +98,7 @@ layout: default
 
                     <div class="course-caption">
                         <h3><a href="#">{{ programme.title }}</a></h3>
-                        <p class="text-justify">{{ programme.description }}</p>
+                        <p style="text-align: justify;">{{ programme.description | slice: 0, 400 }} ...</p>
 
                         <div class="course-foot">
                           

@@ -38,7 +38,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Mécanique générale, Maintenance industrielle, Analyses biologiques Au CFA (Centre de 
   Formation Artisanale) du Complexe Delafosse: Ameublement Sculpté, Bijouterie, Cordonnerie
   – Maroquinerie, Coupe – Couture, Poterie – Céramique, Electricité, Mécanique Générale.
-banner_image: /uploads/african_students.jpg
+banner_image: /uploads/etudiant1.jpg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
