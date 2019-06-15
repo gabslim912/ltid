@@ -111,3 +111,5 @@ fields:
 - type: text
   name: blog_section_subtitle
   label: Section Blog - Sous-titre
+pages:
+- index.md
